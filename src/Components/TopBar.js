@@ -31,24 +31,15 @@ const TopBar = ({ ContainedButton, ButtonTypography }) => {
           <Stack direction="row">
             <img
               style={{
-                width: 75,
-                height: 75,
-                marginTop: "-5px",
+                width: 300,
+                height: 30,
+                marginTop: "5px",
               }}
               src={icon}
               alt=""
             />
 
-            <Typography
-              sx={{ fontSize: "36px", fontFamily: "Mada", fontWeight: "400" }}
-            >
-              Whats
-            </Typography>
-            <Typography
-              sx={{ fontSize: "36px", fontFamily: "Mada", fontWeight: "700" }}
-            >
-              ticket
-            </Typography>
+            
           </Stack>
 
           <Stack direction="row" spacing={2}>
@@ -56,13 +47,13 @@ const TopBar = ({ ContainedButton, ButtonTypography }) => {
               href="#"
               sx={{
                 borderRadius: "10px",
-                width: "100px",
+                width: "200px",
                 height: "55px",
                 textTransform: "none",
               }}
               color="secondary"
             >
-              <ButtonTypography>Entrar</ButtonTypography>
+              <ButtonTypography>Teste Grátis</ButtonTypography>
             </Button>
             <ContainedButton
               variant="contained"

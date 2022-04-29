@@ -39,7 +39,7 @@ const PriceTimeTypography = styled(Typography)({
   lineHeight: "27px",
   letterSpacing: "0.025em",
 
-  color: "#4783F0",
+  color: "#264C81",
 });
 
 const PriceListStack = styled(Stack)({
@@ -64,7 +64,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
       >
         <Card
           sx={{
-            maxWidth: 345,
+            maxWidth: 400,
             height: "auto",
             borderRadius: "20px 20px 20px 20px",
             marginLeft: "auto",
@@ -78,7 +78,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               width: "auto",
               height: "108px",
 
-              background: "#4783F0",
+              background: "#264C81",
               borderRadius: "20px 20px 0px 0px",
             }}
           >
@@ -88,7 +88,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               }}
             >
               {" "}
-              Teste{" "}
+              ENTREPRENOUR{" "}
             </PriceTitleTypography>
           </Box>
           <CardContent sx={{ textAlign: "center" }}>
@@ -99,34 +99,40 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
                 alignItems: "baseline",
               }}
             >
-              <PriceTypography sx={{ color: "#4783F0" }}>7 Dias</PriceTypography>
-              <PriceTimeTypography sx={{ color: "#4783F0" }}>
-                
+              <PriceTypography sx={{ color: "#264C81" }}>R$ 219,90</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
+                /mês
               </PriceTimeTypography>
             </Box>
 
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Versão de teste
+                1 Número de telefone
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Instalação por sua conta
+                1 Administrador
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Sem atualizações constantes
+                3 Usuários
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Sem suporte
+                Sem limite de mensagens
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de atendimentos
               </TextTypography>
             </PriceListStack>
             {/* <PriceListStack direction="row">
@@ -138,8 +144,21 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
             <PriceListStack direction="row">
               <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Funcionalidades básicas
+                10GB Armazenamento / Backup
               </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Transferência de chamados
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Separação de acessos por nível (Administrador e Usuário)
+              </TextTypography>
+              
             </PriceListStack>
 
             <ContainedButton
@@ -160,13 +179,13 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
         xs={12}
         sx={{
           zIndex: "20",
-          filter: "drop-shadow(11px 14px 17px rgba(37, 56, 92, 0.34))",
-          marginTop: "-30px",
+          filter: "drop-shadow(11px 14px 17px rgba(37, 56, 92, 0.29))",
+          paddingBottom: "30px",
         }}
       >
         <Card
           sx={{
-            maxWidth: 345,
+            maxWidth: 400,
             height: "auto",
             borderRadius: "20px 20px 20px 20px",
             marginLeft: "auto",
@@ -180,42 +199,18 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               width: "auto",
               height: "108px",
 
-              background: "#00ACC1",
+              background: "#264C81",
               borderRadius: "20px 20px 0px 0px",
             }}
           >
-            <Stack
+            <PriceTitleTypography
               sx={{
-                marginLeft: "auto",
-                marginRight: "auto",
+                paddingTop: "35px",
               }}
             >
-              <PriceTitleTypography
-                sx={{
-                  paddingTop: "20px",
-                }}
-              >
-                {" "}
-                Pro{" "}
-              </PriceTitleTypography>{" "}
-              <TextTypography
-                sx={{
-                  textAlign: "center",
-                  color: "#FCEBEB",
-                }}
-              >
-                Mais popular
-              </TextTypography>
-            </Stack>
-            <StarRounded
-              sx={{
-                color: "#f1edf3",
-                position: "absolute",
-                marginLeft: "290px",
-                width: "50px",
-                height: "50px",
-              }}
-            />
+              {" "}
+              STARTUP{" "}
+            </PriceTitleTypography>
           </Box>
           <CardContent sx={{ textAlign: "center" }}>
             <Box
@@ -225,71 +220,75 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
                 alignItems: "baseline",
               }}
             >
-              <PriceTypography
-                sx={{
-                  color: "#00ACC1",
-                  paddingTop: "20px",
-                  paddingBottom: "20px",
-                }}
-              >
-                R$ 209,70
-              </PriceTypography>
-              <PriceTimeTypography sx={{ color: "#00ACC1" }}>
+              <PriceTypography sx={{ color: "#264C81" }}>R$ 399,90</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
                 /mês
               </PriceTimeTypography>
             </Box>
 
             <PriceListStack direction="row">
-              <img src={lightGreenCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Ativação imediata
+                2 Números de telefone
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
-              <img src={lightGreenCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                3 usuários simultâneos
+                2 Administradores
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
-              <img src={lightGreenCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                1 conexão com whatsapp
+                6 Usuários
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
-              <img src={lightGreenCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Chatbot 
+                Sem limite de mensagens
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
-              <img src={lightGreenCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Respostas rápidas
+                Sem limite de atendimentos
               </TextTypography>
             </PriceListStack>
             {/* <PriceListStack direction="row">
-              <img src={lightGreenCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Relatórios
+                Comunidade no GitHub
               </TextTypography>
             </PriceListStack> */}
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                20GB Armazenamento / Backup
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Transferência de chamados
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Separação de acessos por nível (Administrador e Usuário)
+              </TextTypography>
+              
+            </PriceListStack>
 
             <ContainedButton
-              sx={{
-                marginTop: "30px",
-                marginBottom: "30px",
-                textAlign: "center",
-              }}
+              sx={{ marginTop: "25px", textAlign: "center" }}
               variant="contained"
               href="#"
-              color="warning"
+              color="success"
             >
-              <ButtonTypography sx={{ color: "#fff" }}>
-                {" "}
-                Contrate agora{" "}
-              </ButtonTypography>
+              <ButtonTypography> Comprar </ButtonTypography>
             </ContainedButton>
           </CardContent>
         </Card>
@@ -302,13 +301,13 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
         sx={{
           zIndex: "20",
           filter: "drop-shadow(11px 14px 17px rgba(37, 56, 92, 0.29))",
-          marginLeft: "auto",
-          marginRight: "auto",
+          paddingBottom: "30px",
         }}
       >
         <Card
           sx={{
-            maxWidth: 345,
+            maxWidth: 400,
+            height: "auto",
             borderRadius: "20px 20px 20px 20px",
             marginLeft: "auto",
             marginRight: "auto",
@@ -321,7 +320,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               width: "auto",
               height: "108px",
 
-              background: "#25385C",
+              background: "#264C81",
               borderRadius: "20px 20px 0px 0px",
             }}
           >
@@ -331,7 +330,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               }}
             >
               {" "}
-              Enterprise{" "}
+              BUSINESS{" "}
             </PriceTitleTypography>
           </Box>
           <CardContent sx={{ textAlign: "center" }}>
@@ -342,70 +341,453 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
                 alignItems: "baseline",
               }}
             >
-              <PriceTypography sx={{ color: "#25385C" }}>
-                R$ 699,00
-              </PriceTypography>
-              <PriceTimeTypography sx={{ color: "#25385C" }}>
+              <PriceTypography sx={{ color: "#264C81" }}>R$ 739,90</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
                 /mês
               </PriceTimeTypography>
             </Box>
 
             <PriceListStack direction="row">
-              <img src={darkCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Ativação imediata
+                5 Números de telefone
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
-              <img src={darkCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                8 usuários simultâneos
+                5 Administradores
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
-              <img src={darkCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                2 conexões com Whatsapp
+                15 Usuários
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
-              <img src={darkCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Chatbot 
+                Sem limite de mensagens
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
-              <img src={darkCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Respostas rápidas
+                Sem limite de atendimentos
+              </TextTypography>
+            </PriceListStack>
+            {/* <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Comunidade no GitHub
+              </TextTypography>
+            </PriceListStack> */}
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                40GB Armazenamento / Backup
               </TextTypography>
             </PriceListStack>
             <PriceListStack direction="row">
-              <img src={darkCheck} alt=""></img>
+              <img src={lightBlueCheck} alt=""></img>
               <TextTypography sx={{ marginRight: "auto" }}>
-                Relatórios
+                Transferência de chamados
               </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Separação de acessos por nível (Administrador e Usuário)
+              </TextTypography>
+              
             </PriceListStack>
 
             <ContainedButton
               sx={{ marginTop: "25px", textAlign: "center" }}
               variant="contained"
               href="#"
-              color="danger"
+              color="success"
             >
-              <ButtonTypography
-                sx={{
-                  color: "#fff",
-                }}
-              >
-                {" "}
-                Contrate agora{" "}
-              </ButtonTypography>
+              <ButtonTypography> Comprar </ButtonTypography>
+            </ContainedButton>
+          </CardContent>
+        </Card>
+      </Grid>
+      <Grid
+        item
+        lg={4}
+        md={6}
+        xs={12}
+        sx={{
+          zIndex: "20",
+          filter: "drop-shadow(11px 14px 17px rgba(37, 56, 92, 0.29))",
+          paddingBottom: "30px",
+        }}
+      >
+        <Card
+          sx={{
+            maxWidth: 400,
+            height: "auto",
+            borderRadius: "20px 20px 20px 20px",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              width: "auto",
+              height: "108px",
+
+              background: "#264C81",
+              borderRadius: "20px 20px 0px 0px",
+            }}
+          >
+            <PriceTitleTypography
+              sx={{
+                paddingTop: "35px",
+              }}
+            >
+              {" "}
+              CORPORATE{" "}
+            </PriceTitleTypography>
+          </Box>
+          <CardContent sx={{ textAlign: "center" }}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "baseline",
+              }}
+            >
+              <PriceTypography sx={{ color: "#264C81" }}>R$ 1.199,90</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
+                /mês
+              </PriceTimeTypography>
+            </Box>
+
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                10 Números de telefone
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                15 Administradores
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                45 Usuários
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de mensagens
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de atendimentos
+              </TextTypography>
+            </PriceListStack>
+            {/* <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Comunidade no GitHub
+              </TextTypography>
+            </PriceListStack> */}
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                90GB Armazenamento / Backup
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Transferência de chamados
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Separação de acessos por nível (Administrador e Usuário)
+              </TextTypography>
+              
+            </PriceListStack>
+
+            <ContainedButton
+              sx={{ marginTop: "25px", textAlign: "center" }}
+              variant="contained"
+              href="#"
+              color="success"
+            >
+              <ButtonTypography> Comprar </ButtonTypography>
+            </ContainedButton>
+          </CardContent>
+        </Card>
+      </Grid>
+      <Grid
+        item
+        lg={4}
+        md={6}
+        xs={12}
+        sx={{
+          zIndex: "20",
+          filter: "drop-shadow(11px 14px 17px rgba(37, 56, 92, 0.29))",
+          paddingBottom: "30px",
+        }}
+      >
+        <Card
+          sx={{
+            maxWidth: 400,
+            height: "auto",
+            borderRadius: "20px 20px 20px 20px",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              width: "auto",
+              height: "108px",
+
+              background: "#264C81",
+              borderRadius: "20px 20px 0px 0px",
+            }}
+          >
+            <PriceTitleTypography
+              sx={{
+                paddingTop: "35px",
+              }}
+            >
+              {" "}
+              PRIME{" "}
+            </PriceTitleTypography>
+          </Box>
+          <CardContent sx={{ textAlign: "center" }}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "baseline",
+              }}
+            >
+              <PriceTypography sx={{ color: "#264C81" }}>Valor a consultar</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
+              
+              </PriceTimeTypography>
+            </Box>
+
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Números ilimitados
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Administradores ilimitados
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Usuários ilimitados
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de mensagens
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de atendimentos
+              </TextTypography>
+            </PriceListStack>
+            {/* <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Comunidade no GitHub
+              </TextTypography>
+            </PriceListStack> */}
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                270GB Armazenamento / Backup
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Transferência de chamados
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Suporte 24/7* (Exclusivo PRIME)
+              </TextTypography>
+              
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Separação de acessos por nível (Administrador e Usuário)
+              </TextTypography>
+              
+            </PriceListStack>
+            
+
+            <ContainedButton
+              sx={{ marginTop: "25px", textAlign: "center" }}
+              variant="contained"
+              href="#"
+              color="success"
+            >
+              <ButtonTypography> Comprar </ButtonTypography>
+            </ContainedButton>
+          </CardContent>
+        </Card>
+      </Grid>
+      <Grid
+        item
+        lg={4}
+        md={6}
+        xs={12}
+        sx={{
+          zIndex: "20",
+          filter: "drop-shadow(11px 14px 17px rgba(37, 56, 92, 0.29))",
+          paddingBottom: "30px",
+        }}
+      >
+        <Card
+          sx={{
+            maxWidth: 400,
+            height: "auto",
+            borderRadius: "20px 20px 20px 20px",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              width: "auto",
+              height: "108px",
+
+              background: "#264C81",
+              borderRadius: "20px 20px 0px 0px",
+            }}
+          >
+            <PriceTitleTypography
+              sx={{
+                paddingTop: "35px",
+              }}
+            >
+              {" "}
+              TESTE GRÁTIS{" "}
+            </PriceTitleTypography>
+          </Box>
+          <CardContent sx={{ textAlign: "center" }}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "baseline",
+              }}
+            >
+              <PriceTypography sx={{ color: "#264C81" }}>3 dias</PriceTypography>
+              <PriceTimeTypography sx={{ color: "#264C81" }}>
+              
+              </PriceTimeTypography>
+            </Box>
+
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                1 Número de telefone
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                1 Administrador
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                3 Usuários
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de mensagens
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Sem limite de atendimentos
+              </TextTypography>
+            </PriceListStack>
+            {/* <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Comunidade no GitHub
+              </TextTypography>
+            </PriceListStack> */}
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                10GB Armazenamento / Backup
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto" }}>
+                Transferência de chamados
+              </TextTypography>
+            </PriceListStack>
+            <PriceListStack direction="row">
+              <img src={lightBlueCheck} alt=""></img>
+              <TextTypography sx={{ marginRight: "auto", marginTop: "5px" }}>
+                Separação de acessos por nível (Administrador e Usuário)
+              </TextTypography>
+              
+            </PriceListStack>
+            
+
+            <ContainedButton
+              sx={{ marginTop: "25px", textAlign: "center" }}
+              variant="contained"
+              href="#"
+              color="success"
+            >
+              <ButtonTypography> Testar </ButtonTypography>
             </ContainedButton>
           </CardContent>
         </Card>
       </Grid>
     </Grid>
+    
   );
 };
 

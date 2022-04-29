@@ -2,10 +2,10 @@ import { Grid, Stack } from "@mui/material";
 import Box from "@mui/material/Box";
 import React from "react";
 
-const SinglePlace = ({ SubtitleTypography, TextTypography }) => {
+const Horarios = ({ SubtitleTypography, TextTypography }) => {
   return (
     <Grid container spacing={2}>
-      <Grid item lg={6} md={12} xs={12} sx={{ paddingBottom: "100px" }}>
+      <Grid item lg={6} md={12} xs={12} sx={{ paddingBottom: "100px", paddingTop: "100px" }}>
         <Box
           sx={{
             display: "flex",
@@ -20,13 +20,12 @@ const SinglePlace = ({ SubtitleTypography, TextTypography }) => {
           }}
         >
           <Stack direction="column" spacing={2}>
-            <SubtitleTypography>Tudo em um único lugar</SubtitleTypography>
+            <SubtitleTypography>Informações e Suporte</SubtitleTypography>
 
             <TextTypography>
-              Tenha todos os departamentos da sua empresa organizados em um
-              único painel. Não perca nenhum atendimento por falta de
-              organização e separe os atendimentos automaticamente com a ajuda
-              do nosso Chatbot.
+              Segunda à sexta, das 8h às 18h.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+              Sábados, das 8h às 12h.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+              27/7 Para clientes PRIME*.
             </TextTypography>
           </Stack>
         </Box>
@@ -51,4 +50,4 @@ const SinglePlace = ({ SubtitleTypography, TextTypography }) => {
   );
 };
 
-export default SinglePlace;
+export default Horarios;

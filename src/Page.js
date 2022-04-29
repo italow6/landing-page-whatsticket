@@ -8,6 +8,7 @@ import Cards from "./Components/Cards";
 import Prices from "./Components/Prices";
 import FriendlyInterface from "./Components/FriendlyInterface";
 import WhaticketPrintScreen from "./Components/WhaticketPrintScreen";
+import Horarios from "./Components/Horarios";
 
 const Page = ({
   ContainedButton,
@@ -45,10 +46,16 @@ const Page = ({
         ContainedButton={ContainedButton}
         ButtonTypography={ButtonTypography}
       />
+      
       <Outro
         TextTypography={TextTypography}
         ContainedButton={ContainedButton}
         ButtonTypography={ButtonTypography}
+      />
+
+<Horarios
+        SubtitleTypography={SubtitleTypography}
+        TextTypography={TextTypography}
       />
     </>
   );

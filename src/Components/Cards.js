@@ -14,7 +14,7 @@ import {
 
 const Cards = ({ CardSubtitleTypography, TextTypography, CardBox }) => {
   return (
-    <Grid container spacing={10} sx={{ paddingBottom: "200px" }}>
+    <Grid container spacing={12} sx={{ paddingBottom: "200px" }}>
       <Grid item md={4} xs={12}>
         <Box
           sx={{
@@ -159,20 +159,46 @@ const Cards = ({ CardSubtitleTypography, TextTypography, CardBox }) => {
         </CardBox>
       </Grid>
 
+      {/* <Grid
+        item
+        sx={{ zIndex: "30", marginLeft: "auto", marginRight: "auto" }}
+        lg={4}
+        md={6}
+        xs={12}
+      >
+        <CardBox sx={{ zIndex: "30", marginLeft: "auto", marginRight: "auto" }}>
+          <Stack
+            sx={{ marginLeft: "auto", marginRight: "auto", width: "250px" }}
+            direction="column"
+            spacing={2}
+          >
+            <CardSubtitleTypography>
+              <ForumOutlined color="primary" fontSize="large"></ForumOutlined>
+              Transferência de chamado
+            </CardSubtitleTypography>
+
+            <TextTypography sx={{ textAlign: "center" }}>
+              Transfira o ticket de atendimento para um setor ou atendente específico
+              Com um clique seu cliente é transferido e já pode ser atendido pelo novo responsável.
+            </TextTypography>
+          </Stack>
+        </CardBox>
+      </Grid>
+ */}
       <Box
         sx={{
           zIndex: "10",
 
-          marginLeft: "80px",
+          marginLeft: "110px",
           marginRight: "-100px",
 
-          width: "90vw",
+          width: "90%",
           height: "138px",
           marginTop: "-80px",
 
-          backgroundColor: "#6DAFA7DE",
+          backgroundColor: "#00ccff",
 
-          borderRadius: "0px 82px 0px 0px",
+          borderRadius: "82px 82px 82px 82px",
         }}
       ></Box>
     </Grid>

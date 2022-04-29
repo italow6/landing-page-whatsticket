@@ -41,7 +41,7 @@ const Outro = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               alignItems: "center",
             }}
           >
-            Cadastre-se gratuitamente e experimente 7 dias do Whatsticket. Tenha
+            Cadastre-se gratuitamente e experimente 3 dias do Whatsticket. Tenha
             acesso a plataforma exclusiva. Aproveite!
           </TextTypography>
 

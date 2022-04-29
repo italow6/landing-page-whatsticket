@@ -29,7 +29,7 @@ const CardBox = styled(Box)({
   justifyContent: "center",
   width: "330px",
   height: "340px",
-  backgroundColor: "#F4C2C9",
+  backgroundColor: "#a6e8fc",
   borderRadius: "40px 40px 0px 0px",
   filter: "drop-shadow(11px 14px 17px rgba(37, 56, 92, 0.29))",
 });
@@ -76,7 +76,7 @@ const FooterBottomWave = styled(Box)({
   position: "relative",
   height: "150px",
   width: "100%",
-  background: "#00ACC1",
+  background: "#00CCFF",
 });
 
 const FooterTopWave = styled(Box)({
@@ -93,16 +93,16 @@ const FooterTopWave = styled(Box)({
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#00ACC1",
+      main: "#00CCFF",
       contrastText: "#FFFFFF",
       darker: "#053e85",
     },
     success: {
-      main: "#4783F0",
+      main: "#264C81",
       darker: "#053e85",
     },
     warning: {
-      main: "#00ACC1",
+      main: "#00CCFF",
       darker: "#053e85",
     },
     danger: {
@@ -155,30 +155,9 @@ function App() {
               }}
             >
               <Stack direction="row">
-                <img style={{ width: 75, height: 75 }} src={whiteIcon} alt="" />
+                <img style={{ width: 300, height: 30 }} src={whiteIcon} alt="" />
 
-                <Typography
-                  sx={{
-                    zIndex: 2000,
-
-                    fontSize: "36px",
-                    fontFamily: "Mada",
-                    fontWeight: "400",
-                    marginTop: "15px",
-                  }}
-                >
-                  Whats
-                </Typography>
-                <Typography
-                  sx={{
-                    fontSize: "36px",
-                    fontFamily: "Mada",
-                    fontWeight: "700",
-                    marginTop: "15px",
-                  }}
-                >
-                  ticket
-                </Typography>
+                
               </Stack>
               <TextTypography
                 sx={{
