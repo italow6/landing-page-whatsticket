@@ -101,6 +101,10 @@ const theme = createTheme({
       main: "#264C81",
       darker: "#053e85",
     },
+    success2: {
+      main: "#00ccff",
+      darker: "#ffffff",
+    },
     warning: {
       main: "#00CCFF",
       darker: "#053e85",
@@ -113,6 +117,10 @@ const theme = createTheme({
       main: "#121212",
       darker: "#053e85",
     },
+    thrird: {
+      main: "00CCFF",
+      darker:"01CCFF"
+    }
   },
 });
 

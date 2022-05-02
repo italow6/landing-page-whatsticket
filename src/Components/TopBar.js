@@ -15,8 +15,9 @@ const TopBar = ({ ContainedButton, ButtonTypography }) => {
           position: "sticky",
           top: 0,
           backgroundColor: "#fff",
-          height: "90px",
+          height: "122px",
           filter: "drop-shadow(11px 14px 17px rgba(37, 56, 92, 0.1))",
+          flexWrap: "wrap",
         }}
       >
         <Stack

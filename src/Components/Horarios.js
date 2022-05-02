@@ -23,9 +23,9 @@ const Horarios = ({ SubtitleTypography, TextTypography }) => {
             <SubtitleTypography>Informações e Suporte</SubtitleTypography>
 
             <TextTypography>
-              Segunda à sexta, das 8h às 18h.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-              Sábados, das 8h às 12h.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-              27/7 Para clientes PRIME*.
+              Segunda à sexta, das 8h às 18h. ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+              Sábados, das 8h às 12h. ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+              24/7 Para clientes PRIME*.
             </TextTypography>
           </Stack>
         </Box>

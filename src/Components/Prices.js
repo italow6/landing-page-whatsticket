@@ -691,7 +691,7 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               width: "auto",
               height: "108px",
 
-              background: "#264C81",
+              background: "#00ccff",
               borderRadius: "20px 20px 0px 0px",
             }}
           >
@@ -779,9 +779,9 @@ const Prices = ({ TextTypography, ContainedButton, ButtonTypography }) => {
               sx={{ marginTop: "25px", textAlign: "center" }}
               variant="contained"
               href="#"
-              color="success"
+              color="success2"
             >
-              <ButtonTypography> Testar </ButtonTypography>
+              <ButtonTypography sx={{ color: "#ffffff" }}> Testar </ButtonTypography>
             </ContainedButton>
           </CardContent>
         </Card>
