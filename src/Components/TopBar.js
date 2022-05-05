@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Stack, Typography } from "@mui/material";
+import { Box, Button, Link, Stack, Typography } from "@mui/material";
 
 import icon from "../assets/icon.png";
 
@@ -45,7 +45,7 @@ const TopBar = ({ ContainedButton, ButtonTypography }) => {
 
           <Stack direction="row" spacing={2}>
             <Button
-              href="#"
+              href="https://api.whatsapp.com/send?phone=558596245292&text=Ol%C3%A1%20gostaria%20de%20testar%20a%20plataforma"
               sx={{
                 borderRadius: "10px",
                 width: "200px",
@@ -54,13 +54,15 @@ const TopBar = ({ ContainedButton, ButtonTypography }) => {
               }}
               color="secondary"
             >
+              
               <ButtonTypography>Teste Grátis</ButtonTypography>
             </Button>
             <ContainedButton
               variant="contained"
               color="primary"
-              href="#"
+              href="https://api.whatsapp.com/send?phone=558596245292&text=Ol%C3%A1%20gostaria%20de%20contratar%20a%20plataforma"
             >
+              
               <ButtonTypography>Contrate agora</ButtonTypography>
             </ContainedButton>
           </Stack>

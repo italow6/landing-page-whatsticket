@@ -53,11 +53,11 @@ const Page = ({
         ContainedButton={ContainedButton}
         ButtonTypography={ButtonTypography}
       />
-      <Formulario
+      {/* <Formulario
         TextTypography={TextTypography}
         ContainedButton={ContainedButton}
         ButtonTypography={ButtonTypography}
-      />
+      /> */}
       <Horarios
         SubtitleTypography={SubtitleTypography}
         TextTypography={TextTypography}
